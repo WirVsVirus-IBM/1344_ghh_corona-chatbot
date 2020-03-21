@@ -9,6 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
+/*
 let mydb, cloudant;
 var vendor; // Because the MongoDB and Cloudant use different API commands, we
             // have to check which command should be used based on the database
@@ -80,7 +81,6 @@ getAll.mongodb = function(response) {
 * {
 *   "name": "Bob"
 * }
-*/
 app.post("/api/visitors", function (request, response) {
   var userName = request.body.name;
   var doc = { "name" : userName };
@@ -102,7 +102,6 @@ app.post("/api/visitors", function (request, response) {
  * Response:
  * [ "Bob", "Jane" ]
  * @return An array of all the visitor names
- */
 app.get("/api/visitors", function (request, response) {
   var names = [];
   if(!mydb) {
@@ -123,7 +122,7 @@ const appEnvOpts = vcapLocal ? { vcap: vcapLocal} : {}
 
 const appEnv = cfenv.getAppEnv(appEnvOpts);
 
-if (appEnv.services['compose-for-mongodb'] || appEnv.getService(/.*[Mm][Oo][Nn][Gg][Oo].*/)) {
+if (appEnv.services['compose-for-mongodb'] || appEnv.getService(/.*[Mm][Oo][Nn][Gg][Oo].*//*)) {
   // Load the MongoDB library.
   var MongoClient = require('mongodb').MongoClient;
 
@@ -141,7 +140,7 @@ if (appEnv.services['compose-for-mongodb'] || appEnv.getService(/.*[Mm][Oo][Nn][
     });
   } else {
     // user-provided service with 'mongodb' in its name
-    MongoClient.connect(appEnv.getService(/.*[Mm][Oo][Nn][Gg][Oo].*/).credentials.uri, null,
+    MongoClient.connect(appEnv.getService(/.*[Mm][Oo][Nn][Gg][Oo].*//*).credentials.uri, null,
       function(err, db) {
         if (err) {
           console.log(err);
@@ -183,7 +182,7 @@ if(cloudant) {
   mydb = cloudant.db.use(dbName);
 
   vendor = 'cloudant';
-}
+}*/
 
 //serve static file (index.html, images, css)
 app.use(express.static(__dirname + '/views'));
