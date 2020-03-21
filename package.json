@@ -1,5 +1,5 @@
 {
-  "name": "Gutenbot Demo",
+  "name": "GutenbotDemo",
   "main": "server.js",
   "description": "A chatbot answering frequently asked questions about the covid-19 pandemic",
   "version": "0.1.1",
