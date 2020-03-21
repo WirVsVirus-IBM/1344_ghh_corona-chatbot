@@ -149,15 +149,24 @@
             color: #000
         }
     </style>
+    <script src="https://web-chat.global.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js"></script>
+    <script>
+        window.loadWatsonAssistantChat({
+            integrationID: "acb7a0df-52cb-4c4e-a058-d78125be7df2", // The ID of this integration.
+            region: "eu-de" // The region your integration is hosted in.
+        }).then(function (instance) {
+            instance.render();
+        });
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     <header id="flex-header">
         <div class="cloud-header"></div>
-            <h1>Willkommen!</h1>
-            <h2>Probieren Sie unseren Gutenbot aus - erhalten Sie Antworten auf Ihre Fragen zur aktuellen Covid-19
-                Pandemie</h2>
+        <h1>Willkommen!</h1>
+        <h2>Probieren Sie unseren Gutenbot aus - erhalten Sie Antworten auf Ihre Fragen zur aktuellen Covid-19
+            Pandemie</h2>
     </header>
     <main>
         <!--Add Watson here!-->
