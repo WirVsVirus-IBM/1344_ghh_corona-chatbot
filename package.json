@@ -15,6 +15,7 @@
     "url": "https://github.com/WirVsVirus-IBM/1344_ghh_corona-chatbot"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "body-parser": "^1.17.x",
     "cfenv": "^1.0.x",
     "dotenv": "^4.0.0",
