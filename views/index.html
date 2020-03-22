@@ -41,7 +41,8 @@
     <script>
         window.loadWatsonAssistantChat({
             integrationID: "acb7a0df-52cb-4c4e-a058-d78125be7df2", // The ID of this integration.
-            region: "eu-de" // The region your integration is hosted in.
+            region: "eu-de", // The region your integration is hosted in.
+            openChatByDefault: true // Open chat window by default
         }).then(function (instance) {
             instance.render();
         });

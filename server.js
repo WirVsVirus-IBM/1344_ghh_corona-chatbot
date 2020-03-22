@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
+// Webhook calls the Covid-QA API to query answers for Watson Assistant
 app.post('/qa', (req, res) => {
   const reqUrl = 'http://3.121.62.187:80/models/1/faq-qa/';
 
@@ -20,7 +21,7 @@ app.post('/qa', (req, res) => {
     'top_k_retriever': 1
   })
     .then(function (response) {
-      if (response.data['results'][0]['answers'][0]['answer'] != "") {
+      if (response.data['results'][0]['answers'].length() > 0) {
         res.send({ "answer": response.data['results'][0]['answers'][0]['answer'] });
       } else {
         res.send({ "answer": "Tut mir leid. Ich habe keine Antwort gefunden!" });
