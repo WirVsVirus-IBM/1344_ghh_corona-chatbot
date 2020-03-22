@@ -15,12 +15,10 @@
     "url": "https://github.com/WirVsVirus-IBM/1344_ghh_corona-chatbot"
   },
   "dependencies": {
-    "@cloudant/cloudant": "^3.0.2",
     "body-parser": "^1.17.x",
     "cfenv": "^1.0.x",
     "dotenv": "^4.0.0",
-    "express": "^4.15.x",
-    "mongodb": "^3.0.10"
+    "express": "^4.15.x"
   },
   "author": "IBM Corp",
   "license": "Apache-2.0"
