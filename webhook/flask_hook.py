@@ -17,7 +17,7 @@ req_qa = {
 url_qa = "http://3.121.62.187:80/models/1/faq-qa"
 params_qa = {}
 
-@app.route("/qa", methods=['GET', 'POST'])
+@app.route("/qa", methods=['POST'])
 def getAnswerFromQA():
     payload = (request.get_data())
     question = json.loads(payload)
