@@ -10,20 +10,17 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-app.get('/qa', (req, res) => {
+app.post('/qa', (req, res) => {
     const reqUrl = 'http://3.121.62.187:80/models/1/faq-qa/';
 
     axios.post(reqUrl, {
         'questions': [
-          req.data['question']
+          req.body.question
         ],
         'top_k_retriever': 1
       })
         .then(function (response) {
             res.send({"answer": response.data['results'][0]['answers'][0]['answer']});
-        })
-        .catch(function (error) {
-            res.send('Unerwarteter Fehler!');
         })
 })
 
