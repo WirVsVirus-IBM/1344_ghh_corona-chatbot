@@ -1,0 +1,1768 @@
+{
+  "intents": [
+    {
+      "intent": "Deutschland",
+      "examples": [
+        {
+          "text": "Wie ist die Lage in Deutschland aktuell?"
+        },
+        {
+          "text": "Deutschland"
+        },
+        {
+          "text": "Wie viele Menschen sind in Deutschland erkrankt?"
+        },
+        {
+          "text": "Wie viele Menschen sind in Deutschland bis jetzt verstorben?"
+        }
+      ],
+      "description": "Aktuelle Gesamtlage in ganz Deutschland"
+    },
+    {
+      "intent": "HomeOffice",
+      "examples": [
+        {
+          "text": "Darf ich von zuhause aus arbeiten?"
+        },
+        {
+          "text": "Wann soll ich Home Office machen?"
+        },
+        {
+          "text": "Soll ich von zuhause arbeiten"
+        },
+        {
+          "text": "Darf ich Home Office machen?"
+        },
+        {
+          "text": "Kann ich mich im Home Office auch anstecken?"
+        },
+        {
+          "text": "Hilft Home office gegen Corona?"
+        },
+        {
+          "text": "Home Office"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Behandlung",
+      "examples": [
+        {
+          "text": "Therapie"
+        },
+        {
+          "text": "Behandlung"
+        },
+        {
+          "text": "wie kann ich mich behandeln lassen"
+        },
+        {
+          "text": "Welche Therapie Möglichkeiten gibt es"
+        },
+        {
+          "text": "Kann man COVID 19 heilen"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "GenerelleFrage",
+      "examples": [
+        {
+          "text": "Generelle Frage"
+        },
+        {
+          "text": "Ich habe eine generelle Frage"
+        },
+        {
+          "text": "Meine Frage ist allgemein"
+        },
+        {
+          "text": "Meine Frage ist eher generell"
+        },
+        {
+          "text": "Es geht um generelle Corona Infos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ArtenDerAnsteckung",
+      "examples": [
+        {
+          "text": "Welche Ansteckungsarten gibt es?"
+        },
+        {
+          "text": "Arten der Ansteckung"
+        },
+        {
+          "text": "Wie kann ich mich anstecken?"
+        },
+        {
+          "text": "Wie stecken Menschen sich an?"
+        }
+      ],
+      "description": "Wie kann ich mich anstecken?"
+    },
+    {
+      "intent": "MichUndAndereSchützen",
+      "examples": [
+        {
+          "text": "Wie kann ich mich schützden?"
+        },
+        {
+          "text": "Mich und andere schützen"
+        },
+        {
+          "text": "Wie schütze ich mich?"
+        },
+        {
+          "text": "Wie kann die Krankheit eingedämmt werden?"
+        },
+        {
+          "text": "Was können wir zu unserem Schutz tun?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "News",
+      "examples": [
+        {
+          "text": "WHO"
+        },
+        {
+          "text": "News"
+        },
+        {
+          "text": "Neuigkeiten"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "BehördeHelfen",
+      "examples": [
+        {
+          "text": "Wie kann ich den Behörden helfen"
+        },
+        {
+          "text": "Behörden helfen"
+        },
+        {
+          "text": "Behörde helfen"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Risikogruppen",
+      "examples": [
+        {
+          "text": "Wer zählt zur Risikogruppe?"
+        },
+        {
+          "text": "Habe ich ein erhöhtes Ansteckungsrisiko?"
+        },
+        {
+          "text": "Ist es riskant für meine Oma rauszugehen?"
+        },
+        {
+          "text": "Bin ich besonders gefährdet?"
+        },
+        {
+          "text": "Risikogruppen"
+        },
+        {
+          "text": "Wer ist durch Corona gefährdet?"
+        },
+        {
+          "text": "Bin ich Teil der Risikogruppe"
+        },
+        {
+          "text": "Ist Corona eine Gefahr für mich?"
+        },
+        {
+          "text": "Wie hoch ist das Risiko?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Hygiene",
+      "examples": [
+        {
+          "text": "Hygiene"
+        },
+        {
+          "text": "Welche Hygienemaßnahmen kann ich ergreifen?"
+        },
+        {
+          "text": "Was gelten aktuell für Hygienevorschriften"
+        },
+        {
+          "text": "Wie sind die Hygienevorschriften?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "AktuelleGesamtlage",
+      "examples": [
+        {
+          "text": "Wie ist die aktuelle Lage zum Virus?"
+        },
+        {
+          "text": "Wie ist die aktuelle Lage?"
+        },
+        {
+          "text": "Wie viele Tote gibt es nun schon?"
+        },
+        {
+          "text": "Aktuelle Gesamtlage"
+        },
+        {
+          "text": "In meiner Stadt"
+        },
+        {
+          "text": "Wie viele Fälle haben wir aktuell?"
+        },
+        {
+          "text": "Wie viele Menschen sind infiziert"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "RäumlicheDistanz",
+      "examples": [
+        {
+          "text": "Wie kann ich räumliche Distanz schaffen?"
+        },
+        {
+          "text": "Räumliche Distanz"
+        },
+        {
+          "text": "Wie viele Meter Distanz soll ich zu Mitmenschen haben?"
+        },
+        {
+          "text": "Was muss ich tun um die nötige Distanz einzuhalten?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "COVIDerkennen",
+      "examples": [
+        {
+          "text": "Wie kann man COVID erkennen"
+        },
+        {
+          "text": "Corona erkennen"
+        },
+        {
+          "text": "COVID 19 erkennen"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Konkreter_Verdachtsfall",
+      "examples": [
+        {
+          "text": "Ich habe einen konkreten Verdachtsfall"
+        },
+        {
+          "text": "Es geht um einen konkreten Verdachtsfall"
+        },
+        {
+          "text": "konkreter verdachtsfall"
+        },
+        {
+          "text": "Ich kenne jemanden mit akuten Symptomen"
+        },
+        {
+          "text": "Meiner Schwester geht es sehr schlecht"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Begrifflichkeiten",
+      "examples": [
+        {
+          "text": "Wofür steht SARS?"
+        },
+        {
+          "text": "Was ist SARS?"
+        },
+        {
+          "text": "begriff"
+        },
+        {
+          "text": "Begrifflichkeiten"
+        },
+        {
+          "text": "Wo ist der Untershcied zur Grippe"
+        },
+        {
+          "text": "Wo ist der Unterschied zu SARS?"
+        },
+        {
+          "text": "Wofür steht Covid"
+        },
+        {
+          "text": "Was heißt COVID 19 genau"
+        },
+        {
+          "text": "Was heit Corona"
+        },
+        {
+          "text": "Was heit die Nummer hinter dem Namen \"Corona\"?"
+        },
+        {
+          "text": "Wofür steht Corona"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Familie",
+      "examples": [
+        {
+          "text": "Wie kann ich meine Familie schützen"
+        },
+        {
+          "text": "Familie unterstützen"
+        },
+        {
+          "text": "Wie kann ich meine Großeltern schützen"
+        },
+        {
+          "text": "Familie"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Nachbarhilfe",
+      "examples": [
+        {
+          "text": "Wie kann ich Nachbarn helfen"
+        },
+        {
+          "text": "Ich suche Plattformen für Nachbarhilfen"
+        },
+        {
+          "text": "Nachbarschaftshilfe"
+        },
+        {
+          "text": "Wie kann ich Nachbarhilfe leisten"
+        },
+        {
+          "text": "Nachbarn helfen"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Testsinnvoll",
+      "examples": [
+        {
+          "text": "Ist ein Test für mich sinnvoll"
+        },
+        {
+          "text": "sollte ich mich testen lassen"
+        },
+        {
+          "text": "Test sinnvoll"
+        },
+        {
+          "text": "Ist ein Test sinnvoll"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Symptome",
+      "examples": [
+        {
+          "text": "ich habe Symptome"
+        },
+        {
+          "text": "Symptome"
+        },
+        {
+          "text": "Symptom"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Helfen",
+      "examples": [
+        {
+          "text": "Ich möchte helfen"
+        },
+        {
+          "text": "Helfen"
+        },
+        {
+          "text": "Wie kann ich Hilfe leisten?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Krankschreibung",
+      "examples": [
+        {
+          "text": "Muss ich zum Arzt für eine Krankschreibung"
+        },
+        {
+          "text": "Wo kann ich eine Krankschreibung erhalten"
+        },
+        {
+          "text": "Krankschreibung"
+        },
+        {
+          "text": "Kann ich mich telefonisch krank schreiben lassen"
+        },
+        {
+          "text": "Wie kann ich mich krank schreiben lassen"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "SozialesEngagement",
+      "examples": [
+        {
+          "text": "Wie kann ich mich sozial engagieren"
+        },
+        {
+          "text": "Soziales Engagement"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Praxisbesuch",
+      "examples": [
+        {
+          "text": "Sind die Ärzte bereits voll ausgelastet"
+        },
+        {
+          "text": "Kann ich zum Arzt ohne vorher anzurufen"
+        },
+        {
+          "text": "Praxisbesuch"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Ausgangssperre",
+      "examples": [
+        {
+          "text": "Ausgangssperre"
+        },
+        {
+          "text": "Hilft uns eine Ausgangssperre?"
+        },
+        {
+          "text": "Haben wir eine Ausgangssperre?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "AufklärungFakeNews",
+      "examples": [
+        {
+          "text": "Was kann ich gegen Fake News tun?"
+        },
+        {
+          "text": "Ich möchte helfen Fake News zu bekämpfen"
+        },
+        {
+          "text": "Aufklärung Fake News"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "InterestedQuestion",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "InterestedLocation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Welt",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Deutschland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Landkreis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bundesland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stadt",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Europa",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "InterestedSource",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "WHO",
+          "synonyms": [
+            "World Health Organisation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Robert Koch Institut",
+          "synonyms": [
+            "RKI",
+            "Robert-Koch Institut",
+            "Robert-Koch-Institut"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bundesregierung",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gesundheitsminister",
+          "synonyms": [
+            "Gesundheitsministerium"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://gutenbot-demo.eu-de.cf.appdomain.cloud/qa",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$variable.answer"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1584812297002",
+      "conditions": "$variable",
+      "dialog_node": "response_2_1584812310068",
+      "previous_sibling": "slot_4_1584813277669"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1584812297002",
+      "dialog_node": "slot_4_1584813277669"
+    },
+    {
+      "type": "standard",
+      "title": "RKI ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.rki.de/DE/Home/homepage_node.html"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1584818978489",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "@InterestedSource:(Robert Koch Institut) && #News",
+      "dialog_node": "node_2_1584820159798",
+      "previous_sibling": "node_5_1584820128533"
+    },
+    {
+      "type": "standard",
+      "title": "WHO",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "http://www.euro.who.int/de/home"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1584818978489",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "@InterestedSource:WHO && #News",
+      "dialog_node": "node_3_1584820180982",
+      "previous_sibling": "node_2_1584820159798"
+    },
+    {
+      "type": "standard",
+      "title": "Bundesregierung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.bundesregierung.de/breg-de/aktuelles"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1584818978489",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "#News && @InterestedSource:Bundesregierung",
+      "dialog_node": "node_5_1584820128533"
+    },
+    {
+      "type": "standard",
+      "title": "Kein Corona Symptom",
+      "parent": "node_4_1584800421206",
+      "dialog_node": "node_7_1584800555857",
+      "previous_sibling": "node_9_1584800547410"
+    },
+    {
+      "type": "standard",
+      "title": "\"Kommt vor\"",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Weitere Symptome: Kopf- und Gliederschmerzen, Appetitlosigkeit, Gewichtsverlust, Übelkeit, Bauchschmerzen, Erbrechen, Durchfall, Konjunktivitis, Hautausschlag, Lymphknotenschwellung, Apathie, Somnolenz"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1584800421206",
+      "dialog_node": "node_9_1584800547410",
+      "previous_sibling": "node_9_1584800532794"
+    },
+    {
+      "type": "standard",
+      "title": "Häufigste",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Husten\t55 %\nFieber\t39 %\nSchnupfen\t28 %\nHalsschmerzen\t23 %\nAtemnot\t3 %\n(Stand 18.03.2020 des RKI)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1584800421206",
+      "dialog_node": "node_9_1584800532794"
+    },
+    {
+      "type": "standard",
+      "title": "Mein Bundesland",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Wie lautet ihr Bundesland?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1584799259301",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "@InterestedLocation:Bundesland",
+      "dialog_node": "node_10_1584799568275",
+      "previous_sibling": "node_4_1584799311287"
+    },
+    {
+      "type": "standard",
+      "title": "Mein Landkreis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Wie lautet ihr Landkreis?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1584799259301",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "@InterestedLocation:Landkreis",
+      "dialog_node": "node_1_1584799628653",
+      "previous_sibling": "node_10_1584799568275"
+    },
+    {
+      "type": "standard",
+      "title": "Weltweit",
+      "parent": "node_8_1584799259301",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "@InterestedLocation:Welt",
+      "dialog_node": "node_7_1584799648454",
+      "previous_sibling": "node_7_1584799638333"
+    },
+    {
+      "type": "standard",
+      "title": "Europa",
+      "parent": "node_8_1584799259301",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "@InterestedLocation:Europa",
+      "dialog_node": "node_7_1584799638333",
+      "previous_sibling": "node_1_1584799628653"
+    },
+    {
+      "type": "standard",
+      "title": "Deutschland",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1584799259301",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1584812297002"
+      },
+      "conditions": "@InterestedLocation:Deutschland",
+      "dialog_node": "node_4_1584799311287"
+    },
+    {
+      "type": "standard",
+      "title": "Hygiene",
+      "parent": "node_6_1584820484000",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "#Hygiene",
+      "dialog_node": "node_2_1584821016060",
+      "previous_sibling": "node_10_1584820986621"
+    },
+    {
+      "type": "standard",
+      "title": "Home Office",
+      "parent": "node_6_1584820484000",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "#HomeOffice",
+      "dialog_node": "node_10_1584821051493",
+      "previous_sibling": "node_2_1584821025926"
+    },
+    {
+      "type": "standard",
+      "title": "Ausgangssperre",
+      "parent": "node_6_1584820484000",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "#Ausgangssperre",
+      "dialog_node": "node_2_1584821025926",
+      "previous_sibling": "node_2_1584821016060"
+    },
+    {
+      "type": "standard",
+      "title": "Räumliche Distanz",
+      "parent": "node_6_1584820484000",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "#RäumlicheDistanz",
+      "dialog_node": "node_10_1584820986621"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1584813277669",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1584813277697",
+      "previous_sibling": "handler_9_1584813277697"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1584813277669",
+      "event_name": "input",
+      "dialog_node": "handler_9_1584813277697"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ich suche eine Antwort auf Ihre Frage"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Andernfalls",
+      "disabled": true,
+      "dialog_node": "response_8_1584812248363",
+      "previous_sibling": "node_6_1584812297002"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Andernfalls",
+      "disabled": true,
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_5_1584812248845",
+      "previous_sibling": "response_8_1584812248363"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Andernfalls",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1584812249024",
+      "previous_sibling": "response_5_1584812248845"
+    },
+    {
+      "type": "standard",
+      "title": "Call Covid QA",
+      "parent": "Andernfalls",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "question": "<?input.text?>"
+          },
+          "result_variable": "variable"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1584812297002",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1584799271656",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_6_1584816222759",
+      "previous_sibling": "response_3_1584816221944"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584799271656",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_3_1584816221944"
+    },
+    {
+      "type": "standard",
+      "title": "Risikogruppen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das Risiko einer schweren Erkrankung steigt ab 50 bis 60 Jahren stetig mit dem Alter an. Insbesondere ältere Menschen können, bedingt durch das weniger gut reagierende Immunsystem, nach einer Infektion schwerer erkranken (Immunseneszenz). Da unspezifische Krankheitssymptome wie Fieber die Antwort des Immunsystems auf eine Infektion sind, können diese im Alter schwächer ausfallen oder fehlen, wodurch Erkrankte dann auch erst später zum Arzt gehen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Auch verschiedene Grunderkrankungen wie z.B. Herzkreislauferkrankungen, Diabetes, Erkrankungen des Atmungssystems, der Leber und der Niere sowie Krebserkrankungen scheinen unabhängig vom Alter das Risiko für einen schweren Krankheitsverlauf zu erhöhen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Bei älteren Menschen mit vorbestehenden Grunderkrankungen ist das Risiko für einen schweren Krankheitsverlauf höher als wenn nur ein Faktor (Alter oder Grunderkrankung) vorliegt; wenn mehrere Grunderkrankungen vorliegen (Multimorbidität) dürfte das Risiko höher sein als bei nur einer Grunderkrankung."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Für Patienten mit unterdrücktem Immunsystem (z.B. aufgrund einer Erkrankung, die mit einer Immunschwäche einhergeht, oder wegen Einnahme von Medikamenten, die die Immunabwehr unterdrücken, wie z.B. Cortison) besteht ein höheres Risiko."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1584798999925",
+      "conditions": "#Risikogruppen",
+      "dialog_node": "node_8_1584799479831",
+      "previous_sibling": "node_10_1584799286636"
+    },
+    {
+      "type": "standard",
+      "title": "Begrifflichkeiten",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Das Corona-Virus erhält seinen Namen, weil es wie eine Krone aussieht. Es waren bereits 6 Typen bekannt dafür, dass sie den Menschen infizieren. Nun gibt es die neue, siebte Art. Die Coronaviren HCoV-229E, -NL63, -OC43 und -HKU1 zirkulieren kontinuierlich in der Bevölkerung und verursachen weltweit Atemwegsinfektionen bei Erwachsenen und Kindern. Die durch 2019-nCoV verursachte Krankheit wird COVID-19 genannt."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1584798999925",
+      "conditions": "#Begrifflichkeiten",
+      "dialog_node": "node_10_1584799286636",
+      "previous_sibling": "node_5_1584799271656"
+    },
+    {
+      "type": "standard",
+      "title": "Arten der Ansteckung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Der Hauptübertragungsweg in der Bevölkerung scheint die Tröpfcheninfektion zu sein. Theoretisch möglich sind auch Schmierinfektion und eine Ansteckung über die Bindehaut der Augen. Eine Übertragung durch Schmierinfektion/Infektion durch kontaminierte Oberflächen ist prinzipiell nicht ausgeschlossen."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1584798999925",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#ArtenDerAnsteckung",
+      "dialog_node": "node_5_1584799271656"
+    },
+    {
+      "type": "standard",
+      "title": "Konkreter Verdachtsfall",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Symptome",
+                "value": {
+                  "input": {
+                    "text": "Symptome"
+                  }
+                }
+              },
+              {
+                "label": "Krankschreibung",
+                "value": {
+                  "input": {
+                    "text": "Krankschreibung"
+                  }
+                }
+              },
+              {
+                "label": "COVID 19 erkennen",
+                "value": {
+                  "input": {
+                    "text": "COVID 19 erkennen"
+                  }
+                }
+              },
+              {
+                "label": "Test sinnvoll?",
+                "value": {
+                  "input": {
+                    "text": "Test"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Willkommen",
+      "conditions": "#Konkreter_Verdachtsfall",
+      "dialog_node": "node_7_1584799248987",
+      "previous_sibling": "node_8_1584799259301"
+    },
+    {
+      "type": "standard",
+      "title": "Helfen",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Aufklärung gegen Fake News",
+                "value": {
+                  "input": {
+                    "text": "Aufklärung gegen Fake News"
+                  }
+                }
+              },
+              {
+                "label": "Soziales Engagement",
+                "value": {
+                  "input": {
+                    "text": "Soziales Engagement"
+                  }
+                }
+              },
+              {
+                "label": "Behörden unterstützen",
+                "value": {
+                  "input": {
+                    "text": "Behörden unterstützen"
+                  }
+                }
+              },
+              {
+                "label": "Behörden unterstützen",
+                "value": {
+                  "input": {
+                    "text": "Behörden unterstützen"
+                  }
+                }
+              },
+              {
+                "label": "Nachbarn helfen",
+                "value": {
+                  "input": {
+                    "text": "Nachbarn helfen"
+                  }
+                }
+              },
+              {
+                "label": "Familie unterstützen",
+                "value": {
+                  "input": {
+                    "text": "Familie unterstützen"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Willkommen",
+      "conditions": "#Helfen",
+      "dialog_node": "node_10_1584819424675",
+      "previous_sibling": "node_6_1584820484000"
+    },
+    {
+      "type": "standard",
+      "title": "Aktuelle Gesamtlage",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Für welchen Bereich gilt Ihre Frage?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Weltweit",
+                "value": {
+                  "input": {
+                    "text": "Aktuelle Lage weltweit"
+                  }
+                }
+              },
+              {
+                "label": "In Europa",
+                "value": {
+                  "input": {
+                    "text": "Aktuelle Lage in Europa"
+                  }
+                }
+              },
+              {
+                "label": "In Deutschland",
+                "value": {
+                  "input": {
+                    "text": "Aktuelle Lage in Deutschland"
+                  }
+                }
+              },
+              {
+                "label": "In meinem Bundesland",
+                "value": {
+                  "input": {
+                    "text": "Aktuelle Lage in meinem Bundesland"
+                  }
+                }
+              },
+              {
+                "label": "In meinem Landkreis",
+                "value": {
+                  "input": {
+                    "text": "Aktuelle Lage in meinem Landkreis"
+                  }
+                }
+              },
+              {
+                "label": "In meiner Stadt",
+                "value": {
+                  "input": {
+                    "text": "Aktuelle Lage in meiner Stadt"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Willkommen",
+      "conditions": "#AktuelleGesamtlage",
+      "dialog_node": "node_8_1584799259301",
+      "previous_sibling": "node_2_1584798999925"
+    },
+    {
+      "type": "standard",
+      "title": "News",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Bundesregierung",
+                "value": {
+                  "input": {
+                    "text": "Bundesregierung News"
+                  }
+                }
+              },
+              {
+                "label": "RKI",
+                "value": {
+                  "input": {
+                    "text": "RKI News"
+                  }
+                }
+              },
+              {
+                "label": "WHO",
+                "value": {
+                  "input": {
+                    "text": "WHO"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Willkommen",
+      "conditions": "#News",
+      "dialog_node": "node_4_1584818978489",
+      "previous_sibling": "node_10_1584819424675"
+    },
+    {
+      "type": "standard",
+      "title": "Wie kann ich mich und andere schützen?",
+      "parent": "Willkommen",
+      "conditions": "#MichUndAndereSchützen",
+      "dialog_node": "node_6_1584820484000",
+      "previous_sibling": "node_7_1584799248987"
+    },
+    {
+      "type": "standard",
+      "title": "Generelle Infos über Corona",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Wir können Informationen zu den folgenden Themen bereitstellen"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Arten der Ansteckung",
+                "value": {
+                  "input": {
+                    "text": "Arten der Ansteckung"
+                  }
+                }
+              },
+              {
+                "label": "Begrifflichkeiten",
+                "value": {
+                  "input": {
+                    "text": "Begrifflichkeiten"
+                  }
+                }
+              },
+              {
+                "label": "Risikogruppen",
+                "value": {
+                  "input": {
+                    "text": "Risikogruppen"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Willkommen",
+      "conditions": "#GenerelleFrage",
+      "dialog_node": "node_2_1584798999925"
+    },
+    {
+      "type": "standard",
+      "title": "Nachbarn helfen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.focus.de/perspektiven/deutschland-hilft-sich/nachbarschaftshilfe-jugendlicher-entwickelt-app-um-das-wichtigste-in-der-krise-zu-erklaeren_id_11765041.html"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1584819424675",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "#Nachbarhilfe",
+      "dialog_node": "node_6_1584820063878",
+      "previous_sibling": "node_1_1584820040862"
+    },
+    {
+      "type": "standard",
+      "title": "Familie unterstützen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.bmfsfj.de/bmfsfj/themen/familie/aktuelle-informationen-zu-hilfs--und-unterstuetzungsangeboten/153522"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1584819424675",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "#Familie",
+      "dialog_node": "node_3_1584820093462",
+      "previous_sibling": "node_6_1584820063878"
+    },
+    {
+      "type": "standard",
+      "title": "Soziales Engagement",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://blog.govolunteer.com/helfen-gegen-corona/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1584819424675",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "#SozialesEngagement",
+      "dialog_node": "node_1_1584820020922",
+      "previous_sibling": "node_3_1584819990532"
+    },
+    {
+      "type": "standard",
+      "title": "Behörden unterstützen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kontaktdaten und Informationen zum Coronavirus\nWichtige Links\nRobert-Koch-Institut (inkl. aktueller Fallzahlen, Risikogebiete und Handlungsempfehlungen):\nwww.rki.de\n\nBundesgesundheitsministerium (Tagesaktuelle Updates):\nhttps://www.bundesgesundheitsministerium.de/coronavirus.html\n\nBundeszentrale für Gesundheitliche Aufklären (FAQ):\nhttps://www.infektionsschutz.de/coronavirus-sars-cov-2.html \n\nGesundheitsämter:\nhttps://tools.rki.de/PLZTool/\n\nWeltgesundheitsorganisation/WHO (aktuelle Fallzahlen und weltweiter Überblick):\nhttps://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd\n\nWichtige Telefonnummern\nDeutschlandweite Info-Hotline für das Coronavirus:\n0800 011 77 22 (von der Unabhängigen Patientenberatung Deutschland)\n\nHotline der Kassenärztlichen Vereinigung:\n116 / 117 rund um die Uhr erreichbar.\n\nBundesministerium für Gesundheit (Bürgertelefon):\n030 346 465 100\n\nAllgemeine Erstinformation und Kontaktvermittlung:\nBehördennummer 115 (www.115.de)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1584819424675",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "#BehördeHelfen",
+      "dialog_node": "node_1_1584820040862",
+      "previous_sibling": "node_1_1584820020922"
+    },
+    {
+      "type": "standard",
+      "title": "Aufklärung gegen Fake News",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.zdf.de/nachrichten/panorama/coronavirus-fake-news-infodemie-100.html"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1584819424675",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Andernfalls"
+      },
+      "conditions": "#AufklärungFakeNews",
+      "dialog_node": "node_3_1584819990532"
+    },
+    {
+      "type": "standard",
+      "title": "Behandlung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.rki.de/DE/Content/Kommissionen/Stakob/Stellungnahmen/Stellungnahme-Covid-19_Therapie_Diagnose.pdf?__blob=publicationFile"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584799248987",
+      "conditions": "#Behandlung",
+      "dialog_node": "node_10_1584800515242",
+      "previous_sibling": "node_2_1584800503410"
+    },
+    {
+      "type": "standard",
+      "title": "COVID 19 erkennen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.rki.de/DE/Content/Kommissionen/Stakob/Stellungnahmen/Stellungnahme-Covid-19_Therapie_Diagnose.pdf?__blob=publicationFile"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584799248987",
+      "conditions": "#COVIDerkennen",
+      "dialog_node": "node_5_1584800461858",
+      "previous_sibling": "node_8_1584800438474"
+    },
+    {
+      "type": "standard",
+      "title": "Test sinnvoll?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ein Test wird nur für Personen empfohlen, welche die Grippe-öhnlichen Symptome aufweisen, aus einem Risikogebiet kommen oder direkten Kontakt zu einem COVID 19 Patienten hatten."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584799248987",
+      "conditions": "#Testsinnvoll",
+      "dialog_node": "node_10_1584800488338",
+      "previous_sibling": "node_5_1584800461858"
+    },
+    {
+      "type": "standard",
+      "title": "Krankschreibung",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Wer den begründeten Verdacht hat, sich möglicherweise mit dem Coronavirus angesteckt zu haben, sollte zuerst beim Hausarzt oder der zentralen Telefonnummer der lokalen Kassenärztlichen Vereinigung anrufen. Auf keinen Fall ungefragt in der Praxis oder den Krankenhäusern auftauchen, um nicht andere Menschen anzustecken.\n\nKrankschreibungen wegen Coronaverdachts sind zur Entlastung von Arztpraxen vorübergehend telefonisch möglich – und werden in der kommenden Woche wahrscheinlich auf eine Maximaldauer von 14 Tagen ausgeweitet."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584799248987",
+      "conditions": "#Krankschreibung",
+      "dialog_node": "node_8_1584800438474",
+      "previous_sibling": "node_4_1584800421206"
+    },
+    {
+      "type": "standard",
+      "title": "Praxisbesuch",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ein Praxisbesuch sollte in jedem Fall vorab mit dem Hausarzt abgesprochen werden."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584799248987",
+      "conditions": "#Praxisbesuch",
+      "dialog_node": "node_2_1584800503410",
+      "previous_sibling": "node_10_1584800488338"
+    },
+    {
+      "type": "standard",
+      "title": "Symptome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Häufig genannte Symptome:\nHusten\t55 %\nFieber\t39 %\nSchnupfen\t28 %\nHalsschmerzen\t23 %\nAtemnot\t3 %\nWeitere Symptome: Kopf- und Gliederschmerzen, Appetitlosigkeit, Gewichtsverlust, Übelkeit, Bauchschmerzen, Erbrechen, Durchfall, Konjunktivitis, Hautausschlag, Lymphknotenschwellung, Apathie, Somnolenz\n(Stand 18.03.2020 aus den Daten des RKI)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584799248987",
+      "conditions": "#Symptome",
+      "dialog_node": "node_4_1584800421206"
+    },
+    {
+      "type": "standard",
+      "title": "Andernfalls",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1584812297002"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Andernfalls",
+      "previous_sibling": "Willkommen",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Willkommen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hallo, was möchten Sie zum Thema Coronavirus wissen? Sie können eine der folgenden Kategorien auswählen, aber auch eine eigene Frage unten eingeben."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Aktuelle Gesamtlage",
+                "value": {
+                  "input": {
+                    "text": "Aktuelle"
+                  }
+                }
+              },
+              {
+                "label": "Generelle Corona-Infos",
+                "value": {
+                  "input": {
+                    "text": "Generelle Corona-Infos"
+                  }
+                }
+              },
+              {
+                "label": "Konkreter Verdachtsfall",
+                "value": {
+                  "input": {
+                    "text": "Konkreter Verdachtsfall"
+                  }
+                }
+              },
+              {
+                "label": "Helfen",
+                "value": {
+                  "input": {
+                    "text": "Helfen"
+                  }
+                }
+              },
+              {
+                "label": "News",
+                "value": {
+                  "input": {
+                    "text": "News"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Willkommen"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Meinten Sie:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nichts von dem oben genannten"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Meinten Sie:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Prod_Ask_Corona",
+  "language": "de",
+  "description": ""
+}
