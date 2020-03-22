@@ -17,16 +17,19 @@ req_qa = {
 url_qa = "http://3.121.62.187:80/models/1/faq-qa"
 params_qa = {}
 
-@app.route("/qa", methods=['GET', 'POST'])
+@app.route("/qa", methods=['POST'])
 def getAnswerFromQA():
     payload = (request.get_data())
     question = json.loads(payload)
     
     req_qa['questions']= [question['question']]
-    response = requests.post(url_qa,params_qa , json=req_qa)
-    data = json.loads(response.content)
-    return {"answer"  : data['results'][0]['answers'][0]['answer']}
 
+    try:
+        response = requests.post(url_qa,params_qa , json=req_qa)
+        data = json.loads(response.content)
+        return {"answer"  : data['results'][0]['answers'][0]['answer']}
+    except:
+        return {"answer" : "Es konnte keine zufriedenstellende Antwort ermittelt werden"}
 
 
 
