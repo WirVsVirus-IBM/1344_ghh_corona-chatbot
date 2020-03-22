@@ -23,10 +23,13 @@ def getAnswerFromQA():
     question = json.loads(payload)
     
     req_qa['questions']= [question['question']]
-    response = requests.post(url_qa,params_qa , json=req_qa)
-    data = json.loads(response.content)
-    return {"answer"  : data['results'][0]['answers'][0]['answer']}
 
+    try:
+        response = requests.post(url_qa,params_qa , json=req_qa)
+        data = json.loads(response.content)
+        return {"answer"  : data['results'][0]['answers'][0]['answer']}
+    except:
+        return {"answer" : "Es konnte keine zufriedenstellende Antwort ermittelt werden"}
 
 
 
