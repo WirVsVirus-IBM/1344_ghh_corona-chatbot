@@ -20,11 +20,11 @@ app.post('/qa', (req, res) => {
     'top_k_retriever': 1
   })
     .then(function (response) {
-      if (Array.isArray(response.data['results']) && response.data['results'].lenght() > 0) {
+//      if (Array.isArray(response.data['results']) && response.data['results'].lenght() > 0) {
         res.send({ "answer": response.data['results'][0]['answers'][0]['answer'] });
-      } else {
-        res.send({ "answer": "Tut mir leid. Ich habe keine Antwort gefunden!" });
-      }
+//      } else {
+//        res.send({ "answer": "Tut mir leid. Ich habe keine Antwort gefunden!" });
+//      }
     })
 })
 
