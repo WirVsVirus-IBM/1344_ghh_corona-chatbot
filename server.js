@@ -3,6 +3,7 @@ var app = express();
 var cfenv = require("cfenv");
 var bodyParser = require('body-parser');
 var axios = require("axios").default;
+var _ = require("lodash");
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -21,12 +22,15 @@ app.post('/qa', (req, res) => {
     'top_k_retriever': 1
   })
     .then(function (response) {
-      if (response.data['results'][0]['answers'].length() > 0) {
+      if (Array.isArray(response.data['results'][0]['answers']) && !_.isEmpty(response.data['results'][0]['answers']) ) {
         res.send({ "answer": response.data['results'][0]['answers'][0]['answer'] });
       } else {
         res.send({ "answer": "Tut mir leid. Ich habe keine Antwort gefunden!" });
       }
     })
+    .catch(function (error) {
+      console.log(error);
+    }) 
 })
 
 //serve static file (index.html, images, css)
