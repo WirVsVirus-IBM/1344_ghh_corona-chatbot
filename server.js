@@ -15,7 +15,7 @@ app.get('/qa', (req, res) => {
 
     axios.post(reqUrl, {
         'questions': [
-          'What is corona'
+          req.data['question']
         ],
         'top_k_retriever': 1
       })
