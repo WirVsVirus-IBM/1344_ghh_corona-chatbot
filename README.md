@@ -17,6 +17,9 @@ Die bereitgestellte Datei skill_Gutenbot.json ermöglicht es, in der IBM Cloud e
 
 Um die API von [Covid-QA](https://covid.deepset.ai/home) zu nutzen, muss eine kleine Webhook implementiert werden, die das Format des IBM Watson Assistant an die API anpasst. Zwei Beispielimplementierung in Python und nodeJS sind in diesem GitHub Repository vorhanden. Es ist bspw. möglich in der IBM Cloud einen Cloud Foundry Service anzulegen und dort den nodeJS Server zu starten.
 
+![Überblick Gutenbot Implementierung](https://raw.githubusercontent.com/WirVsVirus-IBM/1344_ghh_corona-chatbot/master/Watson%20Assistant%20Skills/GutenbotImplementationOverview.png
+?raw=true  "Überblick Gutenbot Implementierung")
+
 ## Wie kann ich Gutenbot anpassen?
 Ausgehend von diesem Prototypen, gibt es verschiedene Möglichkeiten, den Chatbot an die eigenen Gegebenheiten anzupassen:
 - Erstellen neuer Intents und Dialoge, die weitere Fragen abdecken.
